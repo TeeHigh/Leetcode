@@ -32,6 +32,13 @@ public:
     {
       int width = right - left;
       int h = min(height[left], height[right]);
+
+      if (h < 0 || h > 10000)
+      {
+        cout << "Invalid height value!" << endl;
+        return -1;
+      };
+      
       maxA = max(maxA, (width * h));
 
       if(height[left] > height[right]){
