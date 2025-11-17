@@ -13,6 +13,6 @@ public class Main {
     // System.out.println("nums: " + nums.sumRange(0, 2));
     // nums.sumRange(0, 2); 
 
-    System.out.println(230/10);
+    System.out.println(10 & (-10));
   }
 }

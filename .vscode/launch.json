@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Main",
+      "projectName": "LeetCode_aebfc363"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "FindTheDuplicateNumber.Main",
       "projectName": "LeetCode_aebfc363"
     },
